@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
   vendor/zte/dana/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
   vendor/zte/dana/proprietary/bin/rild:system/bin/rild \
   vendor/zte/dana/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+  vendor/zte/dana/proprietary/bin/hciattach:system/bin/hciattach \
   vendor/zte/dana/proprietary/bin/qseecomd:system/bin/qseecomd \
   vendor/zte/dana/proprietary/bin/btnvtool:system/bin/btnvtool \
   vendor/zte/dana/proprietary/bin/app6939:system/bin/app6939 \
@@ -126,12 +127,14 @@ PRODUCT_COPY_FILES += \
   vendor/zte/dana/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
   vendor/zte/dana/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
   vendor/zte/dana/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
-  vendor/zte/dana/proprietary/framework/modemwarmup.jar:system/framework/modemwarmup.jar \
-  vendor/zte/dana/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-  vendor/zte/dana/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-  vendor/zte/dana/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-  vendor/zte/dana/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml
+  vendor/zte/dana/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
+  vendor/zte/dana/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so
 
 #  vendor/zte/dana/proprietary/lib/hw/alsa.msm8960.so:system/lib/hw/alsa.msm8960.so \
 #  vendor/zte/dana/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
 #  vendor/zte/dana/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+#  vendor/zte/dana/proprietary/framework/modemwarmup.jar:system/framework/modemwarmup.jar \
+#  vendor/zte/dana/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+#  vendor/zte/dana/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+#  vendor/zte/dana/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+#  vendor/zte/dana/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
